@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.greencolor {
+    color: #059862;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: sandybrown;
+    padding: 5px;
+    padding: 5px;
+}
+
+li {
+   list-style-type: none;
+   margin-right: 3rem;
+   display: inline-block;
+   border: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding: 10px;
+}
+
+li:hover {
+    background-color: #059862;
+    color: white;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    border: 0px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+.search-box input:focus {
+    outline: 0px;
+    border: 4px solid #059862;
+}
+
+.search-box img {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+@media (max-width: 950px) {
+    .search-box, .sign-buttons {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .links {
+        display: none;
+    }
+}
+
+@media (min-width: 950px) {
+    .bar {
+        display: none;
+    }
+}
+
+.sign-buttons button{
+    padding: 10px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.sign-buttons button:nth-child(1) {
+    background-color: #08ac6c;
+    color: white;
+}
+
+.sign-buttons button:nth-child(2) {
+    background-color: white;
+    color: grey;
+}
+
+.sign-buttons button:nth-child(1):hover {
+    background-color: #059862;
+}
+
+.sign-buttons button:nth-child(2):hover {
+    background-color: #d9eee1;
+}
